@@ -1,0 +1,20 @@
+{
+  "name": "whats-the-weather",
+  "version": "1.0.0",
+  "description": "Live weather report",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "mocha **/*.test.js",
+    "start": "live-server --cors --open=. --watch=."
+  },
+  "author": "Metrichor",
+  "license": "MPL-2.0",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  },
+  "devDependencies": {
+    "mocha": "^6.0.2"
+  }
+}
